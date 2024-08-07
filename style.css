@@ -18,15 +18,15 @@
 }
 
 body {
-    height: 904px;
-    width: 1439px;
+    min-height: 904px;
+    max-width: 1439px;
     background-color: var(--light-pink);
     position: relative;
 }
 
 .banner {
-    width: 1439px;
-    height: 320px;
+    max-width: 1439px;
+    min-height: 320px;
     background-color: var(--dark-purple);
     background-image: url(assets/images/background-pattern-desktop.svg);
     position: relative;
@@ -34,8 +34,8 @@ body {
 }
 
 .faq-card {
-    width: 600px;
-    height: 565px;
+    max-width: 600px;
+    min-height: 565px;
     background-color: var(--white);
     position: absolute;
     left: 50%;
@@ -69,9 +69,11 @@ body {
 }
 
 .card-list{
+    min-height: auto;
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: flex-end;
     gap: 25px;
     
