@@ -74,7 +74,6 @@ body {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: flex-end;
     gap: 25px;
     
