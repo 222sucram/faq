@@ -19,13 +19,13 @@
 
 body {
     min-height: 904px;
-    max-width: 1439px;
+    max-width: 100vw;
     background-color: var(--light-pink);
     position: relative;
 }
 
 .banner {
-    max-width: 1439px;
+    max-width: 100vw;
     min-height: 320px;
     background-color: var(--dark-purple);
     background-image: url(assets/images/background-pattern-desktop.svg);
