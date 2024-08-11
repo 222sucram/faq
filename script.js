@@ -44,10 +44,3 @@ titles.forEach(title => {
         
     })
 })
-
-
-// To do
-
-// make desisng responsive to different screen sizes
-
-// deploy on github pages
